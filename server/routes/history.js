@@ -6,7 +6,7 @@ import {
 } from "../controllers/history.js";
 
 const routes = express.Router();
-routes.get("/:userId", getallhistoryVideo);
-routes.post("/views/:videoId", handleview);
-routes.post("/:videoId", handlehistory);
+routes.get("/user/:userId", getallhistoryVideo);
+routes.post("/video/:videoId/view", handleview);
+routes.post("/video/:videoId", handlehistory);
 export default routes;
