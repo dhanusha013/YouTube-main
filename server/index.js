@@ -10,7 +10,7 @@ import watchlaterroutes from "./routes/watchlater.js";
 import historyrroutes from "./routes/history.js";
 import commentroutes from "./routes/comment.js";
 const allowedOrigins = [
-  "https://you-tube-pink-omega.vercel.app",
+  "https://you-tube-main-kappa.vercel.app/",
   "http://localhost:3000" 
 ];
 
