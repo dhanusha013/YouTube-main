@@ -16,7 +16,7 @@ dotenv.config();
 const app = express();
 
 const allowedOrigins = [
-  "https://you-tube-main-kappa.vercel.app",
+  "https://you-tube-main-kappa.vercel.app/",
   "http://localhost:3000"
 ];
 
