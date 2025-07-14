@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDHldT4gTClXp3UQ4Noz_ewjLFOOdQvO_Y",
-  authDomain: "yourtube-1c629.firebaseapp.com",
-  projectId: "yourtube-1c629",
-  storageBucket: "yourtube-1c629.appspot.com",
-  messagingSenderId: "460806004012",
-  appId: "1:460806004012:web:6fee4436c1d46456caa089",
+  apiKey: "AIzaSyAGeOGhdvYgqita7PBz-9mLIrJJFySOdLo",
+  authDomain: "main-fd6fb.firebaseapp.com",
+  projectId: "main-fd6fb",
+  storageBucket: "main-fd6fb.firebasestorage.app",
+  messagingSenderId: "60263208947",
+  appId: "1:60263208947:web:b92407b9490d263fb3e486",
 };
 
 const app = initializeApp(firebaseConfig);
