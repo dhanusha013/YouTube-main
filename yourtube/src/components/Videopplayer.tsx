@@ -23,6 +23,8 @@ export default function VideoPlayer({ video }: VideoPlayerProps) {
         ref={videoRef}
         className="w-full h-full"
         controls
+        autoPlay
+        muted
         poster={`/placeholder.svg?height=480&width=854`}
       >
         <source
