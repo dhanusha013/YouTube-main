@@ -5,6 +5,6 @@ import {
 } from "../controllers/watchlater.js";
 
 const routes = express.Router();
-routes.get("/user/:userId", getallwatchlater);
-routes.post("/video/:videoId", handlewatchlater);
+routes.get("/:userId", getallwatchlater);
+routes.post("/:videoId", handlewatchlater);
 export default routes;
