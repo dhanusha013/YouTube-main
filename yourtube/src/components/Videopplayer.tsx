@@ -25,7 +25,6 @@ export default function VideoPlayer({ video }: VideoPlayerProps) {
         controls
         autoPlay
         muted
-        poster={`/placeholder.svg?height=480&width=854`}
       >
         <source
           src={videoSrc}
